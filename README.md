@@ -20,7 +20,7 @@ The project requirements are:
 - relevant background in machine learning and deep learning
 - the use of popular data science languages and libraries such as Python (NumPy, SciPy, Pandas, Scikit-Learn, Jupyter and IPython libraries), R and Java
 - access to medical image datasets
-- use of suitable software and hardware resources (i.e. Git, Codelabs, etc
+- use of suitable software and hardware resources (i.e. Git, Codelabs, etc)
 
 ## Exclusions from Scope
 We’re not expecting to design or create new algorithms, architectures or techniques. We’re not creating constructing new datasets. The tools and the scripts are for educational purposes only. The outcomes of this project (tools and script) are mainly for educational purposes. The outcomes of this project are not expected to be used for the production environment.
