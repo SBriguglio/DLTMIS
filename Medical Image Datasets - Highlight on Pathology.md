@@ -18,7 +18,7 @@ Make sure to thoroughly read any documentation available for each dataset.
 
 ## Cancer
 
-| Title | Cancer | Modality, Location | Description | Source |
-| ----- | ------ | ------------------ | ----------- | ------ |
-|       |        |                    |             |        |
+| Title | Cancer Type | Modality, Location | Description | Source |
+| ----- | ----------- | ------------------ | ----------- | ------ |
+|       |             |                    |             |        |
 
