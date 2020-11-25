@@ -1,5 +1,5 @@
 # DLTMIS
-Deep Learning for Medical Image Segmentation (DLMIS) is the my undergraduate capstone project at the University of Windsor under the supervision of Dr. Sherif Saad.
+Deep Learning for Medical Image Segmentation (DLTMIS) is the my undergraduate capstone project at the University of Windsor under the supervision of Dr. Sherif Saad.
 
 ## Project Overview
 The purpose of this project is to assist with the use of available deep learning techniques for medical image segmentation, classification and analysis using existing information from literature and available opensource tools and libraries for developing deep learning solutions. This is to be done by creating a publicly available repository/archive of relevant tools, libraries, applications, resources, etc.
