@@ -16,7 +16,7 @@ Make sure to thoroughly read any documentation available for each dataset.
 
 | Title                                                        | Description                                                  | Keywords | Source | Size |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ------ | ---- |
-| NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories | <br /> Dataset composed of over 110000 frontal-view X-ray images of 30805 unique patients. Images are labelled using natural language processing algorithms and are expected to have accuracy of >90%. Labels used are listed below:<br />1, Atelectasis <br />2, Cardiomegaly <br />3, Effusion<br />4, Infiltration<br />5, Mass<br />6, Nodule<br />7, Pneumonia<br />8, Pneumothorax<br />9, Consolidation<br />10, Edema<br />11, Emphysema<br />12, Fibrosis<br />13, Pleural_Thickening<br />14 Hernia |          |        |      |
+| NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories | <br /> Dataset composed of over 110000 frontal-view X-ray images of 30805 unique patients. Images are labelled using natural language processing algorithms and are expected to have accuracy of >90%. Labels used are listed below:<br />1. Atelectasis <br />2. Cardiomegaly <br />3. Effusion<br />4. Infiltration<br />5. Mass<br />6. Nodule<br />7. Pneumonia<br />8. Pneumothorax<br />9. Consolidation<br />10. Edema<br />11. Emphysema<br />12. Fibrosis<br />13. Pleural_Thickening<br />14. Hernia |          |        |      |
 
 ## MRI
 
