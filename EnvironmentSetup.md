@@ -16,7 +16,7 @@ True to their word, Anaconda provides an easy way to manage environments for all
 - MacOS: https://docs.anaconda.com/anaconda/install/mac-os/
 - Linux: https://docs.anaconda.com/anaconda/install/linux/
 
-![image-20201126184610833](C:\Users\ssbri\AppData\Roaming\Typora\typora-user-images\image-20201126184610833.png)
+![](C:\Repos\GitHub\Capstone\DLTMIS\Images\Screenshot 2020-11-26 185758.png)
 
 ### Setting Up Your Environment
 
