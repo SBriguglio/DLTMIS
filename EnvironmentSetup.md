@@ -28,21 +28,21 @@ You'll notice four tabs on the left hand side of the GUI. The *Home* tab shows a
 
 We need to create a new environment, so select the *Environments* tab (yellow), and click create (blue). Note that my system contains some environments that I have already created, but you will likely only see the *base (root)* environment.
 
-![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20191401.png?token=ANH3754EWJEGO7H63HIQVYK7YBCWI)
+![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/Screenshot%202020-11-26%20191401.png?raw=true)
 
 A popup will appear. Insert *DeepLearning* into the *Name* field and select Python version 3.7 from the dropdown menu. If you plan on using R in your work, you can also select to add this package to your environment as well. Click the green *Create* button and wait for Anaconda to finish creating the new environment.
 
-![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20192030.png?token=ANH375ZWMBSWNRAFQ473X627YBDKW)
+![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/Screenshot%202020-11-26%20192030.png?raw=true)
 
 When Anaconda has finished creating your *DeepLearning* environment it should be visible in the *Environments* tab and there should be no blue progress bar present at the bottom of Anaconda Navigator.
 
-![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20192805.png?token=ANH375YLB6GSV7SRX2HOGZC7YBFEM)
+![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/Screenshot%202020-11-26%20192805.png?raw=true)
 
 ### Adding Applications
 
 With the environment installed, we can now add some useful applications. I recommend installing JupyterLab and Jupyter Notebook in addition to the Conda CLI (for Windows users, you can choose your preference of CMD.exe prompt or the Powershell Prompt). If you're not familiar with [Jupyter Notebooks](https://jupyter.org/), they are a very good way to learn, experiment with, and share Python code. It allows you to run and walkthrough Python code without needing a more robust IDE. To install the applications, simply click the *Install* button below each selection.
 
-![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20192924.png?token=ANH3757GZS7URN6G4Y7OXZ27YBFE4)
+![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/Screenshot%202020-11-26%20192924.png?raw=true)
 
 When they are finished installing, the green *Install* button will be replaced with a blue *Launch* button. 
 
@@ -60,7 +60,7 @@ Select the *Environments* tab and ensure that the *DeepLearning* environment is 
 - scikit-image
 - opencv
 
-![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20200703.png?token=ANH3755GZJVJKWWCHG5JNDK7YBIZK)
+![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/Screenshot%202020-11-26%20200703.png?raw=true)
 
 Wait for Anaconda Navigator to solve package specifications and press *Apply* in the *Install Packages* window which will appear.
 
