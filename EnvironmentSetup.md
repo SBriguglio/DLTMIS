@@ -18,5 +18,17 @@ True to their word, Anaconda provides an easy way to manage environments for all
 
 ![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20185758.png?token=ANH3756UCKW7O2P34UXM35K7YBA3E)
 
+<br />
+
 ### Setting Up Your Environment
+
+With Anaconda installed, now we can begin setting up the environment. Note that a base environment has already been installed. We'll leave this alone and create our own titled *Deep Learning.* You can name the environment anything you'd like, but this is name that will be refered to throughout this guide. 
+
+You'll notice four tabs of the left hand side of the GUI. The *Home* tab shows all of the installed applications on the currently selected environment. The *Environments* tab contains a list of the Anaconda environments installed on your computer. The third tab, *Learning* contains links to videos, documentation and other resources to learn about various libraries and more. Finally, the *Community* tab contains links to events, forums and more. 
+
+We need to create a new environment, so select the *Environments* tab (yellow), and click create (blue). Note that my system contains some environments that I have already created, but you will likely only see *base (root)*.
+
+![](https://raw.githubusercontent.com/SBriguglio/DLTMIS/main/Images/Screenshot%202020-11-26%20191401.png?token=ANH3754EWJEGO7H63HIQVYK7YBCWI)
+
+
 
