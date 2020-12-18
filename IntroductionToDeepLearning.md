@@ -41,3 +41,31 @@
 ![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/Picture3.png?raw=true)
 
 ​	Taking for example the image of a car, the first convolution, activation and pooling layers in the CNN may be able to learn about low-level features in the image such as lines, curves, while the next layers may learn that combinations of the primitive objects form shapes like circles, rectangle, etc. Proceeding layers may learn how to related where these features are with respect to where other features located in the image. Finally, the output of this part of the CNN might be fed to a classification system which can in-turn learn how to identify objects based on the features present in the image. These are relatively straightforward examples of deep learning neural networks, but more exciting, and retrospectively intuitive architectures such as U-Nets are also widely used.
+
+### Applications
+
+​	This efficacy to segment medical image was realized by Gordienko *et al* by training a U-Net  to classify chest x-rays of lung cancer. Specifically, U-Nets were show to be effective preprocessing and segmentation tools for 2D chest x-rays. Having such tools can relieve some of the burden from healthcare professionals by providing valuable insight to the user and facilitating a more timely diagnosis. This is especially important in areas which lack access to more advanced imaging modalities such as MRI because these architectures, once trained, can provide enough data to help diagnose disease with more widely available equipment such as ultrasound machines. When combined with more advanced technologies, however, U-Nets are able to produce very exciting results with great accuracy.
+
+​	In late 2019, sars-cov-2, the virus that causes covid-19, spread through China and later all over the world. Being a potentially serious and fatal disease which affects the lungs and causes quick and severe degradation in patient health, it is naturally important to have an accurate and quick diagnosis protocol in place. At the time, however, reliable tests were in very short supply around the world and there was a very great need to better understand the pathology of the virus in order to better treat patients. Yan *et al* hoped to address this by investigation if a more complex U-Net which could reconstruct a 3D representation of covid-19 affect lung tissue using MRI data. 
+![](https://github.com/SBriguglio/DLTMIS/blob/main/Images/aa.png?raw=true)
+
+​	This U-Net was interesting in that it used a special feature variation (FV) block which allowed for even better feature extraction and analysis by enhancing contrast, and implementing position sensitivity. This lead them to develop a 3D representation of the classified data which, positively classified pneumonia and covid-19 patients with 99% and 73% accuracy. It also allowed researchers to use these findings to better understand the impact and pathological effects of covid-19.
+
+​	Research like this  has the potential to greatly advance modern medicine into the future. It is not hard to imagine a diagnosis software which is able to help doctors provide better care and service to patience in a more timely manner and eventually save lives. Many barriers to deep learning in medical image segmentation do exist however, especially because of limited access annotated patient data. In a recent paper published in Nature Machine Intelligence, Kaissis *et al* discuss that these challenges are likely to be met in the near future by the implementation of federated models for deep learning. This could lead to even more major impacts into medical image segmentation, diagnosis, and even computer vision in general.
+
+## Bibliography
+
+|                                                              |
+| ------------------------------------------------------------ |
+| M. Hesamian, W. Jia, X. He and P.  Kennedey, "Deep Learning Techniques for Medical Image Segmentation:  Achievements and Challenges," *Journal of Digital Imaging,* 29  May 2019. |
+| C. Aggarwal, Neural Networks and Deep  Learning, Gewerbestrasse: Springer Natrue Switzerland, 2018. |
+| Q. Yan, B. Wang, D. Gong, C. Luo, W.  Zhao, J. Shen, Q. Shi, S. Jin, L. Zhang and Z. You, "COVID-19 Chest CT  Image Segmentation - A Deep Convolutional Neural Network Solution," *arXiv,*  26  April 2020. |
+| K. Toennies, Guide to Medical Image  Analysis, London: Springer-Verlag, 2017. |
+| Y. e. a. Gordienko, "Deep Learning with Lung  Segmentation and Bone Shadow ExclusionTechniques  for Chest X-Ray Analysisof  Lung Cancer," *Advances  in Computer Science for Engineering and Education, Advances in Intelligent  Systems and Computing,* vol.  754, pp. 638-647, 2018. |
+| Lundervold, Alexander S., et al. "An overview of deep learning in medical imaging focusing on MRI." *Zeitschrift für Medizinische Physik* 29 (2019): 102-127. |
+| Hesamian, Mohammad H., et al. "Deep Learning Techniques for Medical Image Segmentation: Achievements and Challenges." *Journal of Digital Imaging* 32 (2019): 582-596. |
+| Chan, et al. "Automated Classification of Bone and Air Volumes for Hybride PET-MRI Brain Imaging." *2013 International Conference on Digital Image Computing: Techniques and Applications (DICTA)*. Hobart, TAS, Australia: IEEE, 2013. |
+| Norouzi, et al. "Medical Image Segmentation Methods, Algorithms, and Applications." *IETE Technical Review* 31.3 (2014): 199-213. |
+| Aganj, Iman, et al. "Unsupervised Medical Image Segmentation Based on the Local Center of Mass." *Nature Scientific Reports* 8.13012 (2018). |
+| Kaissis, et al. "Secure, privacy-preserving and federated machine learning in medical imaging" *Nature Machine Intelligence* vol. 2. June 2020, 305-311, |
+| https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53 |
